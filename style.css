@@ -1,0 +1,111 @@
+body {
+    margin:0;
+    font-family:Arial,sans-serif;
+    color:rgb(32, 34, 34);
+}
+
+.container{
+    width: auto;
+    height: 25px;
+    margin: auto;
+    padding: 50px ;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    background-color: black;
+}
+.logo img{
+    height: 100px;
+    border-radius: 150%;
+}
+nav ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+nav ul li{
+    display:inline-block;
+    margin-left:20px;
+
+}
+nav ul li:first-child{
+    margin-left:0;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration:none;
+    transition:color 0.3s ease;
+
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration:none;
+    transition:color 0.3s ease;
+
+}
+nav ul li a:hover{
+    color:#ffd700;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:#fff;
+    text-decoration:none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+.btn:hover {
+    background-color:#2b015b;
+}
+.background{
+    background-position: absolute;
+    background-repeat: no-repeat;
+  
+}
+  
+a{
+    text-align: center;
+}
+.image{
+    width:30%;
+    height:50%;
+    position: absolute;
+    right: 80px;
+    bottom: 20px;
+}
+.image img{
+    
+    position: absolute;
+    height:100%;
+    left:40%;
+    transform:translate(-40%);
+    bottom:30%;
+}
+.card{
+    margin-right:10%;
+    margin-top:6%;
+    padding-left: 15px;
+}
+.card h1{
+    font-size:50px;
+    color:#2b015b;
+    text-decoration:underline;
+}
+.card h2{
+    font-size:30px;
+    color:orange;
+    
+}
+.card button{
+    background-color:lightcoral ;
+    
+}
+
+    
+
+
+
+
+
+    
